@@ -1,0 +1,188 @@
+.body {
+    margin: 0;
+    padding: 0;
+    text-decoration: none; 
+}
+
+.header{
+    height: 85vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-size: cover;
+}
+
+.header-image{
+    position: absolute;
+    top: -20vh;
+    z-index: -1 ;
+}
+
+.nav {
+    margin:1vh 10vw;
+    display: flex;
+    justify-content: space-between;
+    color:white;
+    font-size: 1em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-bar{
+    display: flex;
+}
+
+.nav-bar li{
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    padding-left: 30px;
+    list-style: none;
+}
+
+.nav-bar a{
+     text-decoration: none;
+    color: #fff;
+     text-decoration: none;
+}
+
+.head{
+display:flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin-top: 7vh;
+
+}
+.logo{
+    width: 20vw;
+}
+
+.head h3{
+    font-size: 2.1em;
+    color: whitesmoke;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.search{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 55vw;
+    border-radius: 10px;
+    background-color: white;
+    padding: 5px 0;
+    margin-bottom: 15px;
+}
+
+.search.input{
+    outline: none;
+    border: 15px;
+    width: 50%;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.search p{
+color: grey;
+border-right: 1px solid grey;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 15px;
+padding-right: 10px;
+} 
+
+.search i:first-child{
+    font-size: 20px;
+     color:reb(252, 110, 110);
+     padding-left: 10px;
+     padding-right:10px;
+
+}
+
+.search i{
+    color:grey;
+    padding-left: 10px;
+}
+
+.shop-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #e2e7e6;
+}
+
+.box {
+   border: 2px solid black;
+   height: 300px;
+   width: 20%;
+   background-color: white;
+   margin-top: 5px;
+   padding: 15px 0px 10px;
+   text-decoration: none;
+}
+
+.box-image {
+  height: 200px;
+  background-size: cover;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  
+}
+
+.box-content {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.box-content p{
+  
+  color: #007185;
+ 
+}
+li:hover {
+   text-decoration: underline; 
+}
+
+
+
+
+footer {
+ margin-top: 15px;
+}
+
+
+.foot-panel1 {
+  background-color: whitesmoke;
+  color: black;
+  height:400px;
+display: flex;
+justify-content:  space-evenly;
+margin-top: 1px;
+}
+
+
+.logo {
+  background-color: whitesmoke;
+}
+
+ul {
+  margin-top: 100px;
+}
+
+
+ul a {
+  display:block;
+font-size: 0.85rem;
+margin-top: 10px;
+color:black;
+}
+
+
+.Copyright {
+    background-color: whitesmoke;
+  padding-top: 10px;
+  color:black;
+margin-top: 10px;
+margin-bottom: 30px;
+padding-left: 100px;
+}
